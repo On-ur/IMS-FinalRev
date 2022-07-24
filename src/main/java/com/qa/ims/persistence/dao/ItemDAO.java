@@ -151,4 +151,10 @@ public class ItemDAO implements Dao<Item> {
 		}
 		return 0;
 	}
+
+	@Override
+	public Item read(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

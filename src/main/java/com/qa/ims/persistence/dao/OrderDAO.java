@@ -149,4 +149,10 @@ public class OrderDAO implements Dao<Order> {
 		return 0;
 	}
 
+	@Override
+	public Order read(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

@@ -1,28 +1,31 @@
 package com.qa.ims.persistence.domain;
 
-public class Item {
+public class Order {
 
 	// Initialising private fields
 	private Long id;
-	private String itemname;
+	private Long customerId;
 	private Double value;
 
 	// Constructor taking in parameters and calling methods to assign given
 	// parameters.
-	public Item(String name, Double value) {
-		this.setName(itemname);
-		this.setValue(value);
+	public Order(Long customerId) {
+		this.setCustomerId(customerId);
 	}
 
 	// Second constructors which assigns the parameters to the fields by calling the
 	// methods.
-	public Item(Long id, String itemname, Double value) {
+	public Order(Long id, Long customerId, Double value) {
 		this.setId(id);
-		this.setName(itemname);
+		this.setCustomerId(customerId);
 		this.setValue(value);
 	}
 
-	public long getId() {
+	private void setValue(Double value) {
+
+	}
+
+	public Long getId() {
 		return id;
 	}
 
@@ -30,33 +33,33 @@ public class Item {
 		this.id = id;
 	}
 
-	public String getName() {
-		return itemname;
+	public Long getCustomerId() {
+		return customerId;
 	}
 
-	public void setName(String itemname) {
-		this.itemname = itemname;
+	public void setCustomerId(Long customerId) {
+		this.customerId = customerId;
 	}
 
 	public Double getValue() {
 		return value;
 	}
 
-	public void setValue(Double value2) {
-		this.value = value2;
+	public void setCost(Double value) {
+		this.value = value;
 	}
 
 	@Override
 	public String toString() {
-		return "id: " + id + " name: " + itemname + " value: " + value;
+		return "Order (id=" + id + ", customerId=" + customerId + ", value=" + value + ")";
 	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((itemname == null) ? 0 : itemname.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((customerId == null) ? 0 : customerId.hashCode());
 		result = prime * result + ((value == null) ? 0 : value.hashCode());
 		return result;
 	}
@@ -69,11 +72,11 @@ public class Item {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Item other = (Item) obj;
-		if (getName() == null) {
-			if (other.getName() != null)
+		Order other = (Order) obj;
+		if (customerId == null) {
+			if (other.customerId != null)
 				return false;
-		} else if (!getName().equals(other.getName()))
+		} else if (!customerId.equals(other.customerId))
 			return false;
 		if (id == null) {
 			if (other.id != null)
