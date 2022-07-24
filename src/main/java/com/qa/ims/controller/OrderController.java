@@ -41,7 +41,7 @@ public class OrderController implements CrudController<Order> {
 		List<Order> orders = orderDAO.readAll();
 		List<Customer> customers = customerDAO.readAll();
 		 LOGGER.info(" Order ID  ~   Value  ~         Customer Name         ");
-		 LOGGER.info("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		 LOGGER.info(" ");
 		 
 for (Order order : orders) {
 for (Customer customer : customers) {
@@ -54,6 +54,7 @@ LOGGER.info(order.getId()+"       "+order.getValue()+"      "+ customer.getFirst
 /**
 * Creates an order by taking in user input: customer id
   */
+return orders;
 	}
 
 	@Override
