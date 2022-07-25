@@ -2,7 +2,7 @@
 
 Coverage: 63.1%
 
-A simple text interface inventory management system designed to provide CRUD databse functionality.
+A simple text interface inventory management system designed to provide CRUD database functionality.
 
 ## Info
 
