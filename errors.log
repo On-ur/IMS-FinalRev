@@ -1,0 +1,136 @@
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java36 - id:1 first name:jordan surname:harrison
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java46 - Please enter a first name
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java48 - Please enter a surname
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java51 - Customer created
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java78 - Please enter the id of the customer you would like to delete
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java60 - Please enter the id of the customer you would like to update
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java62 - Please enter a first name
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java64 - Please enter a surname
+20220725 02:25:22 INFO  [main] controller.CustomerController CustomerController.java67 - Customer Updated
+20220725 02:25:24 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:24 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:24 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:24 DEBUG [main] dao.OrderItemsDAO OrderItemsDAO.java45 - java.sql.SQLException: No database selected
+20220725 02:25:24 ERROR [main] dao.OrderItemsDAO OrderItemsDAO.java46 - No database selected
+20220725 02:25:24 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:24 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:24 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:25 DEBUG [main] dao.OrderItemsDAO OrderItemsDAO.java85 - java.sql.SQLException: No database selected
+20220725 02:25:25 ERROR [main] dao.OrderItemsDAO OrderItemsDAO.java86 - No database selected
+20220725 02:25:25 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:25 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:25 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:25 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:25 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:25 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:26 DEBUG [main] dao.OrderItemsDAO OrderItemsDAO.java103 - java.sql.SQLException: No database selected
+20220725 02:25:26 ERROR [main] dao.OrderItemsDAO OrderItemsDAO.java104 - No database selected
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java36 - id: 1 name: Red Fedora value: 10.49
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java36 - id: 2 name: White Baseball Cap value: 15.99
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java36 - id: 3 name: Black Letter Jacket value: 99.99
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java36 - id: 4 name: Black V Neck T Shirt value: 9.99
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java36 - id: 5 name: Yellow Crew Neck T Shirt value: 12.45
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java46 - Please enter an item name
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java48 - Please enter the value for the item
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java51 - Item created successfully
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java77 - Please enter the id of the item that you would like to delete
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java59 - Please enter the id of the item that you would like to update
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java61 - Please enter an item name
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java63 - Please enter the value for the item
+20220725 02:25:26 INFO  [main] controller.ItemController ItemController.java66 - Customer Updated
+20220725 02:25:26 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:26 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:27 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:27 DEBUG [main] dao.OrderDAO OrderDAO.java70 - java.sql.SQLException: No database selected
+20220725 02:25:27 ERROR [main] dao.OrderDAO OrderDAO.java71 - No database selected
+20220725 02:25:27 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:27 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:27 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:27 DEBUG [main] dao.OrderDAO OrderDAO.java108 - java.sql.SQLException: No database selected
+20220725 02:25:27 ERROR [main] dao.OrderDAO OrderDAO.java109 - No database selected
+20220725 02:25:28 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:28 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:28 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:28 DEBUG [main] dao.OrderDAO OrderDAO.java52 - java.sql.SQLException: No database selected
+20220725 02:25:28 ERROR [main] dao.OrderDAO OrderDAO.java53 - No database selected
+20220725 02:25:28 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:28 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:28 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:29 DEBUG [main] dao.OrderDAO OrderDAO.java90 - java.sql.SQLException: No database selected
+20220725 02:25:29 ERROR [main] dao.OrderDAO OrderDAO.java91 - No database selected
+20220725 02:25:29 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:29 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:29 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:29 DEBUG [main] dao.OrderDAO OrderDAO.java146 - java.sql.SQLException: No database selected
+20220725 02:25:29 ERROR [main] dao.OrderDAO OrderDAO.java147 - No database selected
+20220725 02:25:29 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:29 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:30 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:30 DEBUG [main] dao.OrderDAO OrderDAO.java129 - java.sql.SQLException: No database selected
+20220725 02:25:30 ERROR [main] dao.OrderDAO OrderDAO.java130 - No database selected
+20220725 02:25:30 INFO  [main] controller.OrderController OrderController.java43 -  Order ID  ~   Value  ~         Customer Name         
+20220725 02:25:30 INFO  [main] controller.OrderController OrderController.java44 -  
+20220725 02:25:30 INFO  [main] controller.OrderController OrderController.java49 - 1       null      onur hassan
+20220725 02:25:30 INFO  [main] controller.OrderController OrderController.java118 - Please enter the id of the order that you would like to delete
+20220725 02:25:31 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:31 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:31 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:31 DEBUG [main] dao.CustomerDAO CustomerDAO.java58 - java.sql.SQLException: No database selected
+20220725 02:25:31 ERROR [main] dao.CustomerDAO CustomerDAO.java59 - No database selected
+20220725 02:25:32 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:32 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:32 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:32 DEBUG [main] dao.CustomerDAO CustomerDAO.java95 - java.sql.SQLException: No database selected
+20220725 02:25:32 ERROR [main] dao.CustomerDAO CustomerDAO.java96 - No database selected
+20220725 02:25:33 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:33 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:33 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:33 DEBUG [main] dao.CustomerDAO CustomerDAO.java45 - java.sql.SQLException: No database selected
+20220725 02:25:33 ERROR [main] dao.CustomerDAO CustomerDAO.java46 - No database selected
+20220725 02:25:34 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:34 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:34 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:34 DEBUG [main] dao.CustomerDAO CustomerDAO.java79 - java.sql.SQLException: No database selected
+20220725 02:25:34 ERROR [main] dao.CustomerDAO CustomerDAO.java80 - No database selected
+20220725 02:25:35 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:35 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:35 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:35 DEBUG [main] dao.CustomerDAO CustomerDAO.java137 - java.sql.SQLException: No database selected
+20220725 02:25:35 ERROR [main] dao.CustomerDAO CustomerDAO.java138 - No database selected
+20220725 02:25:36 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:36 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:36 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:36 DEBUG [main] dao.CustomerDAO CustomerDAO.java119 - java.sql.SQLException: No database selected
+20220725 02:25:36 ERROR [main] dao.CustomerDAO CustomerDAO.java120 - No database selected
+20220725 02:25:37 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:37 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:37 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:38 DEBUG [main] dao.ItemDAO ItemDAO.java72 - java.sql.SQLException: No database selected
+20220725 02:25:38 ERROR [main] dao.ItemDAO ItemDAO.java73 - No database selected
+20220725 02:25:38 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:38 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:38 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:38 DEBUG [main] dao.ItemDAO ItemDAO.java110 - java.sql.SQLException: No database selected
+20220725 02:25:38 ERROR [main] dao.ItemDAO ItemDAO.java111 - No database selected
+20220725 02:25:38 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:38 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:39 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:39 DEBUG [main] dao.ItemDAO ItemDAO.java54 - java.sql.SQLException: No database selected
+20220725 02:25:39 ERROR [main] dao.ItemDAO ItemDAO.java55 - No database selected
+20220725 02:25:39 DEBUG [main] dao.ItemDAO ItemDAO.java54 - java.sql.SQLException: No database selected
+20220725 02:25:39 ERROR [main] dao.ItemDAO ItemDAO.java55 - No database selected
+20220725 02:25:39 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:39 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:39 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:40 DEBUG [main] dao.ItemDAO ItemDAO.java91 - java.sql.SQLException: No database selected
+20220725 02:25:40 ERROR [main] dao.ItemDAO ItemDAO.java92 - No database selected
+20220725 02:25:40 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:40 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:40 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:40 DEBUG [main] dao.ItemDAO ItemDAO.java149 - java.sql.SQLException: No database selected
+20220725 02:25:40 ERROR [main] dao.ItemDAO ItemDAO.java150 - No database selected
+20220725 02:25:41 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:41 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:41 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: No database selected
+20220725 02:25:41 DEBUG [main] dao.ItemDAO ItemDAO.java132 - java.sql.SQLException: No database selected
+20220725 02:25:41 ERROR [main] dao.ItemDAO ItemDAO.java133 - No database selected
