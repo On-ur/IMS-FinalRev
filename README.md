@@ -7,7 +7,7 @@ A simple text interface inventory management system designed to provide CRUD dat
 
 * DB is hosted on an AWS RDS instance.
 
-* URL for the kanban board [Jira](https://och.atlassian.net/jira/software/projects/IMS/boards/1)
+* URL for the kanban board: [Jira](https://och.atlassian.net/jira/software/projects/IMS/boards/1)
 
 ## Pre-requesities 
 
