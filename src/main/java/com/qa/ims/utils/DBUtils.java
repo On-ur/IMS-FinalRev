@@ -74,7 +74,7 @@ public class DBUtils {
 
 	public static DBUtils getInstance() {
 		if (instance == null) {
-			instance = new DBUtils("", "");
+			instance = new DBUtils("root", "ochroot256");
 		}
 		return instance;
 	}
