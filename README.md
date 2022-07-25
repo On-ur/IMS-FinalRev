@@ -1,5 +1,6 @@
+## IMS - Inventory Management System Project
+
 Coverage: 63.1%
-IMS - Inventory Management System Project
 
 A simple text interface inventory management system designed to provide CRUD databse functionality.
 
