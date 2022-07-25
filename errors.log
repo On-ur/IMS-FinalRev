@@ -1,0 +1,14 @@
+20220725 01:23:58 INFO  [main] ims.IMS IMS.java40 - Welcome to the IMS - Inventory Management System
+20220725 01:23:59 DEBUG [main] utils.DBUtils DBUtils.java54 - java.sql.SQLException: Can't drop database 'ims'; database doesn't exist
+20220725 01:23:59 INFO  [main] ims.IMS IMS.java46 - Which entity would you like to use?
+20220725 01:23:59 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20220725 01:23:59 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20220725 01:23:59 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20220725 01:23:59 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20220725 01:24:11 ERROR [main] domain.Domain Domain.java38 - Invalid selection please try again
+20220725 01:24:17 INFO  [main] ims.IMS IMS.java75 - What would you like to do with item:
+20220725 01:24:17 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20220725 01:24:17 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20220725 01:24:17 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20220725 01:24:17 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20220725 01:24:17 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
