@@ -15,15 +15,14 @@ public class DBUtils {
 
 	private static final Logger LOGGER = LogManager.getLogger();
 
-	private final String dbUser;
+	private final String dbUser = "root";
 
-	private final String dbPass;
+	private final String dbPass = "ochroot256";
 
-	private final String dbURL = "jdbc:mysql:";
+	private final String dbURL = "jdbc:mysql://rds-free.crktn2ycvrwh.eu-west-2.rds.amazonaws.com:3306";
 
 	private DBUtils(String username, String password) {
-		this.dbUser = username;
-		this.dbPass = password;
+
 
 		init();
 	}
