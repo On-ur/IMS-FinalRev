@@ -6,7 +6,12 @@ import org.apache.logging.log4j.Logger;
 import com.qa.ims.controller.Action;
 import com.qa.ims.controller.CrudController;
 import com.qa.ims.controller.CustomerController;
+import com.qa.ims.controller.ItemController;
+import com.qa.ims.controller.OrderController;
 import com.qa.ims.persistence.dao.CustomerDAO;
+import com.qa.ims.persistence.dao.ItemDAO;
+import com.qa.ims.persistence.dao.OrderDAO;
+import com.qa.ims.persistence.dao.OrderItemsDAO;
 import com.qa.ims.persistence.domain.Domain;
 import com.qa.ims.utils.DBUtils;
 import com.qa.ims.utils.Utils;
@@ -26,7 +31,7 @@ public class IMS {
 		final ItemDAO itemDAO = new ItemDAO();
 		final OrderDAO orderDAO = new OrderDAO();
 		final OrderItemsDAO orderitemsDAO = new OrderItemsDAO();
-		this.customers = new CustomerController(custDAO, utils);
+		this.customers = new CustomerController(customerDAO, utils);
 		this.items = new ItemController(itemDAO, utils);
 		this.orders = new OrderController(orderDAO, orderitemsDAO, customerDAO, utils);
 	}

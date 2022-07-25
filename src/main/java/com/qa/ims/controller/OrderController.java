@@ -83,6 +83,7 @@ return orders;
 			
 		String option = utils.getString();
 		
+		Long orderId;
 		switch(option) {
 		case "ADD":
 			LOGGER.info("what is the item ID?");
@@ -99,11 +100,12 @@ return orders;
 		case "EXIT":
 			boolean exit;
 			exit = true;
+			
+		}
+			
 		}
 		
 	
-				
-		}
 
 	/**
 	 * Deletes an existing order by the id of the order
